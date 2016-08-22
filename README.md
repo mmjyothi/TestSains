@@ -16,9 +16,14 @@ $git clone https://github.com/mmjyothi/TestSains/
 
 $cd TestSains
 
+3. Deploy goApp 
+
 $vagrant up
 
-3. Test/Access Application with Browser
+
+#Test
+
+4. Test/Access Application with Browser
 
 After the vagrant up is complete, you can access to application at the below url
 
