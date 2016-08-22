@@ -14,12 +14,12 @@
    file:          path=/opt/appserver/ state=directory mode=0755
 
  - name:          deploy go  application
-   copy:          src=goapp.go dest=/opt/appserver/goapp.go owner=root group=root mode=755
-   register:      _goapp
+   copy:          src=goapp.go dest=/opt/appserver/goapp.go group=root owner=root mode=755
+   register:      goapplication
  
  - name:          compile the goapp
    command:       go build goapp.go chdir=/opt/appserver
-   when:          _goapp.changed
+   when:          goapplication.changed
    notify:        restart supervisor
 
  - name:          configure supervisord.conf file

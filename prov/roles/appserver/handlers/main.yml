@@ -1,5 +1,5 @@
 ---
 # handlers file for webserver
 
-- name:    restart supervisor service
+- name:    restart supervisor
   command: service supervisor restart
