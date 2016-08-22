@@ -31,11 +31,18 @@ After the vagrant up is complete, you can access to application at the below url
 http://10.0.15.11/
 ```
 
-#Redeployment command
+#Redeployment Steps
+
+
 ```
+1. Git Repo directory
+
 $cd TestSains
 
+2. Destroy VMs
 $ vagrant destroy -f
+
+3. Create new Infra and Deploy goApp
 $ vagrant up
 ```
 
