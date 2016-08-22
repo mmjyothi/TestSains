@@ -31,8 +31,10 @@ After the vagrant up is complete, you can access to application at the below url
 http://10.0.15.11/
 ```
 
-#Redeployment Steps
+#Redeployment command
 ```
+$cd TestSains
+
 $ vagrant destroy -f
 $ vagrant up
 ```
