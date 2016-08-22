@@ -20,9 +20,10 @@ $cd TestSains
 
 $vagrant up
 
-
+```
 #Test
 
+```
 4. Test/Access Application with Browser
 
 After the vagrant up is complete, you can access to application at the below url
